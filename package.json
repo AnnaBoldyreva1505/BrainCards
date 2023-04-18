@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://AnnaBoldyreva1505.github.io/BrainCards",
+  "homepage": "https://annaboldyreva1505.github.io/BrainCards/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/"
