@@ -16,5 +16,5 @@ const fetchCategories = async () => {
     return { error };
   }
 };
-fetchCategories()
+
 export default fetchCategories;
