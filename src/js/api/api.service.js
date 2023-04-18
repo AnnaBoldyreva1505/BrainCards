@@ -2,9 +2,10 @@ const API_URL = 'https://imaginary-invited-gull.glitch.me';
 
 const fetchCategories = async () => {
   try {
-    const res = await fetch(`${API_URL}/api/category`);
-    if (res.status === 200) {
-      const categories = await res.json();
+    const response = await fetch(`${API_URL}/api/category`);
+  
+    if (response.status === 200) {
+      const categories = await response.json();
       return categories;
     } else {
       const error = await response.json();
