@@ -6,6 +6,7 @@ const fetchCategories = async () => {
   
     if (response.status === 200) {
       const categories = await response.json();
+      console.log(categories)
       return categories;
     } else {
       const error = await response.json();
@@ -15,5 +16,5 @@ const fetchCategories = async () => {
     return { error };
   }
 };
-
+fetchCategories()
 export default fetchCategories;
